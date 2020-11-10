@@ -8,6 +8,8 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
+sourceCompatibility = '11'
+targetCompatibility = '11'
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
